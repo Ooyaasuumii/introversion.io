@@ -1,0 +1,431 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-color: #1d1d1d;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* header stuff */
+
+.header {
+  top: 0;
+  position: fixed;
+  padding: 20px;
+  height: 100px;
+  background-color:#1d1d1d;
+}
+
+.hidden-header {
+  top: 0;
+  position: relative
+  padding: 20px;
+  height: 100px;
+}
+
+.title {
+  margin: 0px;
+  color: white;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+}  
+
+#para-title {
+  color: white;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+}
+
+/* post body stuff */
+
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.main-container-about {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.post-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  color:white;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.post-id-number {
+  position: relative;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+  font-size: 20px;
+  z-index: -1;
+}
+
+.post-title {
+  margin: 40px;
+}
+
+.post-title h1 {
+  font-size: 40px;
+}
+
+.post-title h6 {
+  font-size: 20px;
+}
+
+.post-body-text {
+  margin: 40px;
+  line-height: 200%;
+  font-size: 16px;
+  font-family: Impact;
+  letter-spacing: 0.04em;
+  word-spacing: 0.17em;
+  text-align: center;
+}
+
+.iframe-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.artist-links {
+  margin: 20px;
+}
+
+.artist-links a{
+  color: inherit;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer {
+  height: 50px;
+  background-color: white;
+}
+
+.footer-small-pages{
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+
+/* sidenav stuff */
+
+.sidenav {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+  
+  .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+  
+  .sidenav a:hover {
+  color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+  
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.burger {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  margin-right: 20px;
+  top: 0;
+  right: 0;
+  font-size:50px;
+  cursor: pointer;
+  color:white;
+  position: absolute;
+  cursor: pointer;
+}
+
+
+/* fade in stuff */
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+  /* about page stuff */
+
+.socials {
+    margin: 30px
+}
+
+.socials a { 
+  color: inherit; 
+} 
+ 
+
+.socials ul{
+  list-style: none;
+  margin: 0;
+}
+
+.socials ul li {
+  color: #1d1d1d;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+/* INVERTED ARCHIVE CSS  */
+
+.header-invert {
+  top: 0;
+  position: fixed;
+  padding: 20px;
+  height: 80px;
+  background-color: white;
+}
+
+.title-invert {
+  margin: 0px;
+  color: #1d1d1d;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+} 
+
+#para-title-invert {
+  color: #1d1d1d;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+}
+
+.burger-invert {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  margin-right: 20px;
+  top: 0;
+  right: 0;
+  font-size:50px;
+  cursor: pointer;
+  color:#1d1d1d;
+  position: absolute;
+  cursor: pointer;
+}
+
+.archive-container {
+  height: 740px;
+ }
+
+
+.archive-container ul {
+  font-size: 18px;
+  margin: 0; 
+  list-style-type: none;
+}
+
+.archive-container ul li{
+  margin: 5px;
+  color: #1d1d1d;
+  text-decoration: underline;
+}
+
+.list-wrapper {
+  
+}
+
+.archive-container ul :hover {
+  margin: 5px;
+  color: gray;
+  text-decoration: underline;
+}
+
+#invert-body {
+  background-color: white;
+}
+
+/* 
+.footer-small-pages-invert { 
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+} */
+
+.post-title-invert {
+  color:  #1d1d1d;
+  margin: 40px;
+}
+
+.post-body-text-invert {
+  color:  #1d1d1d;
+  line-height: 200%;
+  margin: 40px;
+  font-size: 15px;
+  text-align:justify;
+  letter-spacing: 0.03em;
+  word-spacing: 0.2em;
+}
+
+.post-body-text-invert a {
+  color: inherit;
+}
+
+
+/* MEDIA QUERIES FOR IHPONE  */
+
+
+@media screen and (max-width: 430px) {
+  .title {
+    font-size: 30px;
+  }
+  #para-title {
+    font-size: 30px;
+  }
+  .main-container {
+    margin-top: 10px;
+  }
+  .post-title h1 {
+    font-size: 30px;
+  }
+  .post-title h6 {
+    font-size: 15px;
+  }
+  .post-body-text {
+    font-size: 14px;
+    margin: 20px;
+  }
+  .main-container {
+    margin-top: 10px;
+  }
+  .post-container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .iframe-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .main-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .title-invert {
+    font-size: 30px;
+  }
+  #para-title-invert {
+    font-size: 30px;
+  }
+  .post-title-invert h1 {
+    font-size: 30px;
+  }
+  .post-title-invert h6 {
+    font-size: 15px;
+  }
+  .post-body-text-invert {
+    font-size: 14px;
+    margin: 10px;
+  }
+  .main-container-about {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .post-id-number {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .burger {
+    font-size: 45px;
+  }
+  .burger-invert {
+    font-size: 45px;
+  }
+}
+
+
+
+
+
+
+
