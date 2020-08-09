@@ -239,7 +239,10 @@ body {
   /* about page stuff */
 
 .socials {
-    margin: 30px
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-right: 5px; 
 }
 
 .socials a { 
