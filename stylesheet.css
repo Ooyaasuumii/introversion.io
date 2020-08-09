@@ -18,8 +18,8 @@ body {
 .header {
   top: 0;
   position: fixed;
-  padding: 20px;
-  height: 100px;
+  padding: 15px;
+  height: 80px;
   background-color:#1d1d1d;
  
 }
@@ -27,8 +27,8 @@ body {
 .hidden-header {
   top: 0;
   position: relative
-  padding: 20px;
-  height: 100px;
+  padding: 15px;
+  height: 80px;
 }
 
 .title {
@@ -266,7 +266,7 @@ body {
 .header-invert {
   top: 0;
   position: fixed;
-  padding: 20px;
+  padding: 15px;
   height: 80px;
   background-color: white;
 }
@@ -373,7 +373,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
   .title {
     font-size: 30px;
   }
@@ -400,6 +400,15 @@ body {
   }
   #para-title-invert {
     font-size: 25px;
+  }
+  .header {
+    height: 60px;
+  }
+  .hidden-header{
+    height: 60px;
+  }
+  .header-invert {
+    height: 60px;
   }
 }
 
