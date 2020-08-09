@@ -3,10 +3,14 @@
   margin: 0;
 }
 
+@font-face {
+  src: url(Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf);
+  font-family: Inc;
+}
 
 body {
   background-color: #1d1d1d;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Inc;
 }
 
 /* header stuff */
@@ -17,6 +21,7 @@ body {
   padding: 20px;
   height: 100px;
   background-color:#1d1d1d;
+ 
 }
 
 .hidden-header {
@@ -32,6 +37,7 @@ body {
   top: 0px;
   left: 0px;
   font-size: 40px;
+  font-weight: bold;
 }  
 
 #para-title {
@@ -39,6 +45,7 @@ body {
   top: 0px;
   left: 0px;
   font-size: 40px;
+  font-weight: bold;
 }
 
 /* post body stuff */
@@ -86,10 +93,11 @@ body {
   margin: 40px;
   line-height: 200%;
   font-size: 16px;
-  font-family: Impact;
+  font-family: Inc;
   letter-spacing: 0.04em;
   word-spacing: 0.17em;
   text-align: center;
+  font-weight: 400;
 }
 
 .iframe-container {
@@ -269,6 +277,7 @@ body {
   top: 0px;
   left: 0px;
   font-size: 40px;
+  font-weight: bold;
 } 
 
 #para-title-invert {
@@ -276,6 +285,7 @@ body {
   top: 0px;
   left: 0px;
   font-size: 40px;
+  font-weight: bold;
 }
 
 .burger-invert {
@@ -344,6 +354,7 @@ body {
   text-align:justify;
   letter-spacing: 0.03em;
   word-spacing: 0.2em;
+  font-weight: bold;
 }
 
 .post-body-text-invert a {
@@ -353,14 +364,71 @@ body {
 
 /* MEDIA QUERIES FOR IHPONE  */
 
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 34px;
+  }
+  #para-title {
+    font-size: 34px;
+  }
+}
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   .title {
     font-size: 30px;
   }
   #para-title {
     font-size: 30px;
   }
+  .title-invert {
+    font-size: 30px;
+  }
+  #para-title-invert {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 25px;
+  }
+  #para-title {
+    font-size: 25px;
+  }
+  .title-invert {
+    font-size: 25px;
+  }
+  #para-title-invert {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .burger {
+    font-size: 40px;
+  }
+  .burger-invert {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .title {
+    font-size: 22px;
+  }
+  #para-title {
+    font-size: 22px;
+  }
+  .title-invert {
+    font-size: 22px;
+  }
+  #para-title-invert {
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
   .main-container {
     margin-top: 10px;
   }
@@ -389,12 +457,6 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .title-invert {
-    font-size: 30px;
-  }
-  #para-title-invert {
-    font-size: 30px;
-  }
   .post-title-invert h1 {
     font-size: 30px;
   }
@@ -411,15 +473,6 @@ body {
   }
   .post-id-number {
     font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .burger {
-    font-size: 45px;
-  }
-  .burger-invert {
-    font-size: 45px;
   }
 }
 
