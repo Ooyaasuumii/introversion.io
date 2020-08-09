@@ -172,8 +172,6 @@ body {
 
 
 .burger {
-  margin-top: 4px;
-  margin-bottom: 12px;
   margin-right: 20px;
   top: 0;
   right: 0;
@@ -289,8 +287,6 @@ body {
 }
 
 .burger-invert {
-  margin-top: 4px;
-  margin-bottom: 12px;
   margin-right: 20px;
   top: 0;
   right: 0;
